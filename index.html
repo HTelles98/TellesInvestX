@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Telles InvestX — Invista com segurança e inteligência</title>
+    <meta name="description" content="Telles InvestX: soluções de investimentos com carteiras inteligentes, taxas competitivas e suporte especializado. Comece a investir hoje." />
+
+    <meta property="og:title" content="Telles InvestX — Invista com segurança e inteligência" />
+    <meta property="og:description" content="Soluções de investimentos feitas para você. Simples, transparentes e eficientes." />
+    <meta property="og:type" content="website" />
+
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="16" fill="%232563eb"/><path d="M20 65 L42 40 L58 55 L80 30" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" id="topo">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Telles InvestX">
+          Telles <span>InvestX</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema (claro/escuro)">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.364-7.364l-1.414 1.414M8.05 16.95l-1.414 1.414m10.728 0l-1.414-1.414M8.05 7.05 6.636 5.636"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/></svg>
+        </button>
+        <nav class="primary-nav" aria-label="Navegação principal">
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato" class="btn btn-sm">Falar com especialista</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="inicio" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <h1>
+              Invista com <span class="grad">segurança</span> e <span class="grad">inteligência</span>
+            </h1>
+            <p class="lead">
+              A Telles InvestX combina tecnologia e especialistas para potencializar seus resultados, com transparência e simplicidade.
+            </p>
+            <div class="hero-ctas">
+              <a href="#planos" class="btn">Abrir minha conta</a>
+              <a href="#contato" class="btn btn-outline">Falar com especialista</a>
+            </div>
+            <div class="hero-badges">
+              <span>Rentabilidade histórica</span>
+              <span>Atendimento 5★</span>
+              <span>+10 mil clientes</span>
+            </div>
+          </div>
+          <div class="hero-art reveal" aria-hidden="true">
+            <svg class="chart" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gráfico ilustrativo de crescimento">
+              <defs>
+                <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#84f7b8" />
+                  <stop offset="100%" stop-color="#25d366" />
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="480" height="360" rx="16" fill="url(#grad)" opacity="0.12" />
+              <g fill="none" stroke="#25d366" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M40 300 L140 240 L220 260 L320 180 L440 120" />
+                <circle cx="140" cy="240" r="6" fill="#25d366" />
+                <circle cx="320" cy="180" r="6" fill="#25d366" />
+                <circle cx="440" cy="120" r="6" fill="#25d366" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFÍCIOS -->
+      <section class="section" id="beneficios">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Por que a <span class="grad">Telles InvestX</span>?</h2>
+            <p>Automação inteligente, custos justos e suporte humano quando você precisar.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-6"/></svg>
+              </div>
+              <h3>Carteiras inteligentes</h3>
+              <p>Estratégias diversificadas e reequilíbrio automático para manter seu objetivo no caminho.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v6H3z"/><path d="M16 13H3"/><path d="M16 17H3"/></svg>
+              </div>
+              <h3>Taxas competitivas</h3>
+              <p>Modelo transparente e eficiente, para você ficar com mais do que é seu.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 12a5 5 0 100-10 5 5 0 000 10z"/><path d="M20 21a8 8 0 10-16 0"/></svg>
+              </div>
+              <h3>Suporte dedicado</h3>
+              <p>Especialistas disponíveis por chat, e-mail e telefone para tirar suas dúvidas.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section class="section section-alt" id="sobre">
+        <div class="container about-grid">
+          <div class="about-media reveal" aria-hidden="true">
+            <svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" class="about-illustration">
+              <defs>
+                <linearGradient id="abt" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#e0e7ff" />
+                  <stop offset="100%" stop-color="#bfdbfe" />
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="520" height="360" rx="16" fill="url(#abt)" />
+              <rect x="40" y="60" width="440" height="180" rx="12" fill="#ffffff" stroke="#dbeafe" />
+              <rect x="40" y="260" width="240" height="40" rx="8" fill="#2563eb" opacity="0.1" />
+            </svg>
+          </div>
+          <div class="about-content reveal">
+            <h2>Transparência e metodologia</h2>
+            <p>
+              Unimos dados, modelos quantitativos e curadoria de especialistas para construir soluções
+              de investimento de alta qualidade, adaptadas ao seu perfil de risco e objetivos.
+            </p>
+            <ul class="checklist">
+              <li>Adequação ao seu perfil (suitability)</li>
+              <li>Diversificação entre classes de ativos</li>
+              <li>Rebalanceamento periódico</li>
+              <li>Relatórios claros e objetivos</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOLUÇÕES -->
+      <section class="section" id="solucoes">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Nossas soluções</h2>
+            <p>Do conservador ao arrojado, escolha a estratégia ideal.</p>
+          </div>
+          <div class="cards-grid cols-4">
+            <article class="card reveal">
+              <h3>Renda Fixa</h3>
+              <p>Títulos públicos e privados, liquidez e previsibilidade de retorno.</p>
+              <a href="#contato" class="link">Quero saber mais →</a>
+            </article>
+            <article class="card reveal">
+              <h3>Ações</h3>
+              <p>Exposição ao crescimento de empresas com análise e gestão de risco.</p>
+              <a href="#contato" class="link">Quero saber mais →</a>
+            </article>
+            <article class="card reveal">
+              <h3>Fundos Imobiliários</h3>
+              <p>Renda passiva com diversificação em setores e imóveis.</p>
+              <a href="#contato" class="link">Quero saber mais →</a>
+            </article>
+            <article class="card reveal">
+              <h3>Previdência</h3>
+              <p>Planejamento de longo prazo com benefícios fiscais e sucessórios.</p>
+              <a href="#contato" class="link">Quero saber mais →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PLANOS -->
+      <section class="section section-alt" id="planos">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Planos e taxas</h2>
+            <p>Escolha o plano certo para o seu momento.</p>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-card reveal">
+              <h3>Start</h3>
+              <p class="price"><strong>0,4%</strong> a.a.</p>
+              <ul>
+                <li>Carteira automatizada</li>
+                <li>Relatórios trimestrais</li>
+                <li>Suporte por e-mail</li>
+              </ul>
+              <a href="#contato" class="btn btn-block">Começar</a>
+            </article>
+            <article class="price-card highlight reveal" aria-label="Plano mais popular">
+              <div class="badge">Mais escolhido</div>
+              <h3>Pro</h3>
+              <p class="price"><strong>0,9%</strong> a.a.</p>
+              <ul>
+                <li>Carteiras temáticas</li>
+                <li>Consultor dedicado</li>
+                <li>Relatórios mensais</li>
+              </ul>
+              <a href="#contato" class="btn btn-block">Assinar Pro</a>
+            </article>
+            <article class="price-card reveal">
+              <h3>Private</h3>
+              <p class="price"><strong>sob consulta</strong></p>
+              <ul>
+                <li>Gestão personalizada</li>
+                <li>Alocação internacional</li>
+                <li>Atendimento prioritário</li>
+              </ul>
+              <a href="#contato" class="btn btn-block">Falar com Private</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEPOIMENTOS -->
+      <section class="section" id="depoimentos">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>O que dizem nossos clientes</h2>
+            <p>Confiança que se constrói no dia a dia.</p>
+          </div>
+          <div class="testimonials-grid">
+            <figure class="testimonial reveal">
+              <blockquote>Transparência e resultados consistentes. Recomendo para quem quer investir sem dor de cabeça.</blockquote>
+              <figcaption>— Ana Luiza, RJ</figcaption>
+            </figure>
+            <figure class="testimonial reveal">
+              <blockquote>O atendimento é impecável. Sempre que precisei, tive suporte rápido e claro.</blockquote>
+              <figcaption>— Marcos, SP</figcaption>
+            </figure>
+            <figure class="testimonial reveal">
+              <blockquote>As carteiras inteligentes ajudaram a manter meu plano de longo prazo alinhado.</blockquote>
+              <figcaption>— Bianca, PR</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="section section-alt" id="contato">
+        <div class="container contact-grid">
+          <div class="contact-info reveal">
+            <h2>Fale com um especialista</h2>
+            <p>Tire suas dúvidas e descubra a melhor estratégia para você.</p>
+            <ul class="contact-list">
+              <li>Email: contato@tellesinvestx.com</li>
+              <li>Telefone: (11) 4000-0000</li>
+            </ul>
+            <p class="small">Aviso: investimentos envolvem riscos e podem ocasionar perdas. Esta página tem caráter informativo e não constitui recomendação de investimento.</p>
+          </div>
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@email.com" required />
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(11) 90000-0000" />
+            </div>
+            <div class="field">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Enviar</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-sm" href="#inicio">Telles <span>InvestX</span></a>
+          <p class="small">© <span id="currentYear"></span> Telles InvestX. Todos os direitos reservados.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Rodapé">
+          <a href="#sobre">Sobre</a>
+          <a href="#solucoes">Soluções</a>
+          <a href="#planos">Planos</a>
+          <a href="#contato">Contato</a>
+          <a href="#topo">Voltar ao topo ↑</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  </html>
+
+
